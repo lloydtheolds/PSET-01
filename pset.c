@@ -1,3 +1,16 @@
+/*
+
+Codigo não finalizado da implementação do Algoritimo de Luhn.
+
+Funções pra criar uma substring e função para realização dos calculos do algoritimo
+
+-Começando pelo penúltimo dígito e indo em direção ao primeiro, multiplique cada dígito
+sim, dígito não, por 2. Depois some os dígitos desses resultados
+
+-Adicione a soma dos dígitos dos resultados obtidos no passo anterior, à soma dos dígitos que
+não foram multiplicados por 2
+
+*/
 #include<stdio.h>
 #include <stdlib.h>
 #include <string.h>
